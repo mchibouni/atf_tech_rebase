@@ -1,7 +1,7 @@
-<h3 id="deals-title"><span><?php esc_html_e('Deals Of The Day','eStore'); ?></span></h3>
+<h3 id="deals-title"><span><?php esc_html_e('Nos articles en vedette','eStore'); ?></span></h3>
 
 <div id="scroller" class="clearfix">
-	<a href="#" id="left-arrow"><?php esc_html_e('Previous','eStore'); ?></a>
+	<a href="#" id="left-arrow"><?php esc_html_e('Précédent','eStore'); ?></a>
 
 	<div id="items">
 		
@@ -43,7 +43,7 @@
 						<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 					</div> <!-- .item-content -->
 					
-					<a href="<?php the_permalink(); ?>" class="more"><span><?php esc_html_e('more info','eStore'); ?></span></a>
+					<a href="<?php the_permalink(); ?>" class="more"><span><?php esc_html_e("Plus d'infos",'eStore'); ?></span></a>
 				</div> <!-- .item -->
 						
 			<?php if ( ($i+1) % 4 == 0 ) echo ('</div> <!-- end .block -->'); ?>
@@ -57,7 +57,7 @@
 			
 	</div> <!-- #items -->
 	
-	<a href="#" id="right-arrow"><?php esc_html_e('Next','eStore'); ?></a>
+	<a href="#" id="right-arrow"><?php esc_html_e('Suivant','eStore'); ?></a>
 </div> <!-- #scroller -->
 
 <div class="clear"></div>
