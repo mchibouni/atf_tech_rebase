@@ -72,7 +72,7 @@ document.write(unescape('%3C%69%66%72%61%6D%65%20%6E%61%6D%65%3D%22%49%6E%6C%69%
 			
 			<div id="search-bar">
 				<form method="get" id="searchform1" action="<?php echo home_url(); ?>">
-					<input type="text" value="<?php esc_attr_e('search this site...','eStore'); ?>" name="s" id="searchinput" />
+					<input type="text" value="<?php esc_attr_e('Rechercher...','eStore'); ?>" name="s" id="searchinput" />
 
 					<input type="image" src="<?php bloginfo('template_directory'); ?>/images/search-icon.png" id="searchsubmit" />
 				</form>

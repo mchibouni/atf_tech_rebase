@@ -59,7 +59,7 @@ $custom["thumbs"] = isset( $custom["thumbs"][0] ) ? unserialize($custom["thumbs"
 
 <div class="hr"></div>
 
-<h2><?php esc_html_e('Product Information','eStore'); ?></h2>
+<h2><?php esc_html_e('Informations sur le produit :','eStore'); ?></h2>
 <?php the_content(); ?>
 <div class="clear"></div>
 <?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','eStore').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
@@ -83,7 +83,7 @@ if ($tags) {
 	
 	if( $my_query->have_posts() ) { ?>
 		<div class="related">
-			<h2><?php esc_html_e('Related Products','eStore'); ?></h2>
+			<h2><?php esc_html_e('Consultez aussi: ','eStore'); ?></h2>
 			<ul class="related-items clearfix">
 				<?php $i=1; while( $my_query->have_posts() ) {
 				$my_query->the_post(); ?>
