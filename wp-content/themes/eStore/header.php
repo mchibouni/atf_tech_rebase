@@ -49,7 +49,7 @@
 				<ul id="<?php echo $menuID; ?>" class="<?php echo $menuClass; ?>">
 					<?php if (get_option('estore_swap_navbar') == 'false') { ?>
 						<?php if (get_option('estore_home_link') == 'on') { ?>
-							<li <?php if (is_home()) echo('class="current_page_item"') ?>><a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Home','eStore') ?></a></li>
+							<li <?php if (is_home()) echo('class="current_page_item"') ?>><a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Accueil','eStore') ?></a></li>
 						<?php }; ?>
 						
 						<?php show_page_menu($menuClass,false,false); ?>
@@ -81,7 +81,7 @@
 							<?php show_categories_menu($menuClass,false); ?>
 						<?php } else { ?>
 							<?php if (get_option('estore_home_link') == 'on') { ?>
-								<li <?php if (is_home()) echo('class="current_page_item"') ?>><a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Home','eStore') ?></a></li>
+								<li <?php if (is_home()) echo('class="current_page_item"') ?>><a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Accueil','eStore') ?></a></li>
 							<?php }; ?>
 							
 							<?php show_page_menu($menuClass,false,false); ?>

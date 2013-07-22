@@ -2,7 +2,7 @@
 		
 	<?php if(function_exists('bcn_display')) { bcn_display(); } 
 		  else { ?>
-				<a href="<?php echo home_url(); ?>"><?php esc_html_e('Home','eStore') ?></a> <span class="sep"></span>
+				<a href="<?php echo home_url(); ?>"><?php esc_html_e('Accueil','eStore') ?></a> <span class="sep"></span>
 				
 				<?php if( is_tag() ) { ?>
 					<?php esc_html_e('Posts Tagged &quot;','eStore') ?><?php single_tag_title(); echo('&quot;'); ?>
