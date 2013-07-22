@@ -40,7 +40,7 @@
 			<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 			<p><?php truncate_post(115); ?></p>
 			
-			<a href="<?php the_permalink(); ?>" class="more"><span><?php esc_html_e('more info','eStore'); ?></span></a>
+			<a href="<?php the_permalink(); ?>" class="more"><span><?php esc_html_e("Plus d'informations",'eStore'); ?></span></a>
 			
 			<?php if ($et_band <> '') { ?>
 				<span class="band<?php echo(' '. esc_attr($et_band)); ?>"></span>
