@@ -64,7 +64,7 @@
 							<?php }; ?>
 							<h2 class="title"><a href="<?php echo esc_url($arr[$i]["permalink"]); ?>"><?php echo esc_html($arr[$i]["fulltitle"]); ?></a></h2>
 							<p><?php echo($arr[$i]["excerpt"]); ?></p>
-							<a class="more" href="<?php echo esc_attr($arr[$i]["permalink"]); ?>"><span><?php esc_html_e('more info','eStore'); ?></span></a>
+							<a class="more" href="<?php echo esc_attr($arr[$i]["permalink"]); ?>"><span><?php esc_html_e("Plus d'infos",'eStore'); ?></span></a>
 						</div> <!-- .product -->
 					</div> <!-- .description -->
 				</div> <!-- .container -->			
