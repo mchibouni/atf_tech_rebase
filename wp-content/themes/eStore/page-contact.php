@@ -85,18 +85,18 @@ Template Name: Contact Page
 							<form action="<?php echo(get_permalink($post->ID)); ?>" method="post" id="et_contact_form">
 								<div id="et_contact_left">
 									<p class="clearfix">
-										<label for="et_contact_name" class="et_contact_form_label"><?php esc_html_e('Name','eStore'); ?></label>
-										<input type="text" name="et_contact_name" value="<?php if ( isset($_POST['et_contact_name']) ) echo esc_attr($_POST['et_contact_name']); else esc_attr_e('Name','eStore'); ?>" id="et_contact_name" class="input" />
+										<label for="et_contact_name" class="et_contact_form_label"><?php esc_html_e('Nom','eStore'); ?></label>
+										<input type="text" name="et_contact_name" value="<?php if ( isset($_POST['et_contact_name']) ) echo esc_attr($_POST['et_contact_name']); else esc_attr_e('Nom','eStore'); ?>" id="et_contact_name" class="input" />
 									</p>
 									
 									<p class="clearfix">
-										<label for="et_contact_email" class="et_contact_form_label"><?php esc_html_e('Email Address','eStore'); ?></label>
-										<input type="text" name="et_contact_email" value="<?php if ( isset($_POST['et_contact_email']) ) echo esc_attr($_POST['et_contact_email']); else esc_attr_e('Email Address','eStore'); ?>" id="et_contact_email" class="input" />
+										<label for="et_contact_email" class="et_contact_form_label"><?php esc_html_e('Adresse e-mail','eStore'); ?></label>
+										<input type="text" name="et_contact_email" value="<?php if ( isset($_POST['et_contact_email']) ) echo esc_attr($_POST['et_contact_email']); else esc_attr_e('Adresse e-mail','eStore'); ?>" id="et_contact_email" class="input" />
 									</p>
 									
 									<p class="clearfix">
-										<label for="et_contact_subject" class="et_contact_form_label"><?php esc_html_e('Subject','eStore'); ?></label>
-										<input type="text" name="et_contact_subject" value="<?php if ( isset($_POST['et_contact_subject']) ) echo esc_attr($_POST['et_contact_subject']); else esc_attr_e('Subject','eStore'); ?>" id="et_contact_subject" class="input" />
+										<label for="et_contact_subject" class="et_contact_form_label"><?php esc_html_e('Sujet','eStore'); ?></label>
+										<input type="text" name="et_contact_subject" value="<?php if ( isset($_POST['et_contact_subject']) ) echo esc_attr($_POST['et_contact_subject']); else esc_attr_e('Sujet','eStore'); ?>" id="et_contact_subject" class="input" />
 									</p>
 								</div> <!-- #et_contact_left -->
 								
@@ -120,8 +120,8 @@ Template Name: Contact Page
 									
 								<input type="hidden" name="et_contactform_submit" value="et_contact_proccess" />
 								
-								<input type="reset" id="et_contact_reset" value="<?php esc_attr_e('Reset','eStore'); ?>" />
-								<input class="et_contact_submit" type="submit" value="<?php esc_attr_e('Submit','eStore'); ?>" id="et_contact_submit" />
+								<input type="reset" id="et_contact_reset" value="<?php esc_attr_e('Réinitialiser','eStore'); ?>" />
+								<input class="et_contact_submit" type="submit" value="<?php esc_attr_e('Envoyer','eStore'); ?>" id="et_contact_submit" />
 							</form>
 						<?php } ?>
 					</div> <!-- end #et-contact -->

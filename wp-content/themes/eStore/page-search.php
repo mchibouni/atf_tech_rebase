@@ -30,16 +30,16 @@ Template Name: Search Page
 					
 					<div id="et-search">
 						<div id="et-search-inner" class="clearfix">
-							<p id="et-search-title"><span><?php esc_html_e('search this website','eStore'); ?></span></p>
+							<p id="et-search-title"><span><?php esc_html_e('Parcourez nos catégories','eStore'); ?></span></p>
 							<form action="<?php echo home_url(); ?>" method="get" id="et_search_form">
 								<div id="et-search-left">
-									<p id="et-search-word"><input type="text" id="et-searchinput" name="s" value="<?php esc_attr_e('search this site...','eStore'); ?>" /></p>
+									<p id="et-search-word"><input type="text" id="et-searchinput" name="s" value="<?php esc_attr_e('Saisissez votre mot-clé..','eStore'); ?>" /></p>
 																	
 									<p id="et_choose_posts"><label><input type="checkbox" id="et-inc-posts" name="et-inc-posts" /> <?php esc_html_e('Posts','eStore'); ?></label></p>
 									<p id="et_choose_pages"><label><input type="checkbox" id="et-inc-pages" name="et-inc-pages" /> <?php esc_html_e('Pages','eStore'); ?></label></p>
 									<p id="et_choose_date">
 										<select id="et-month-choice" name="et-month-choice">
-											<option value="no-choice"><?php esc_html_e('Select a month','eStore'); ?></option>
+											<option value="no-choice"><?php esc_html_e('Choississez une date','eStore'); ?></option>
 											<?php 
 												global $wpdb, $wp_locale;
 												
@@ -59,12 +59,12 @@ Template Name: Search Page
 										</select>
 									</p>
 								
-									<p id="et_choose_cat"><?php wp_dropdown_categories('show_option_all=Choose a Category&show_count=1&hierarchical=1&id=et-cat&name=et-cat'); ?></p>
+									<p id="et_choose_cat"><?php wp_dropdown_categories('show_option_all=Choississez une catégorie&show_count=1&hierarchical=1&id=et-cat&name=et-cat'); ?></p>
 								</div> <!-- #et-search-left -->
 								
 								<div id="et-search-right">
 									<input type="hidden" name="et_searchform_submit" value="et_search_proccess" />
-									<input class="et_search_submit" type="submit" value="<?php esc_attr_e('Submit','eStore'); ?>" id="et_search_submit" />
+									<input class="et_search_submit" type="submit" value="<?php esc_attr_e('Valider','eStore'); ?>" id="et_search_submit" />
 								</div> <!-- #et-search-right -->
 							</form>
 						</div> <!-- end #et-search-inner -->
